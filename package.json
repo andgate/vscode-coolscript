@@ -2,11 +2,11 @@
     "name": "coolscript",
     "displayName": "CoolScript",
     "description": "Language support for CoolScript",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "andgate",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/andgate/vscode-coolscript.git"
+        "type": "git",
+        "url": "git+https://github.com/andgate/vscode-coolscript.git"
     },
     "license": "MIT",
     "engines": {
@@ -17,16 +17,27 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "coolscript",
-            "aliases": ["CoolScript", "coolscript"],
-            "extensions": [".cs",".cool",".coolscript"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "coolscript",
-            "scopeName": "source.coolscript",
-            "path": "./syntaxes/coolscript.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "coolscript",
+                "aliases": [
+                    "CoolScript",
+                    "coolscript"
+                ],
+                "extensions": [
+                    ".cs",
+                    ".cool",
+                    ".coolscript"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "coolscript",
+                "scopeName": "source.coolscript",
+                "path": "./syntaxes/coolscript.tmLanguage.json"
+            }
+        ]
     }
 }
