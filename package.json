@@ -3,6 +3,12 @@
     "displayName": "CoolScript",
     "description": "Language support for CoolScript",
     "version": "0.0.1",
+    "publisher": "andgate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andgate/vscode-coolscript.git"
+    },
+    "license": "MIT",
     "engines": {
         "vscode": "^1.64.0"
     },
