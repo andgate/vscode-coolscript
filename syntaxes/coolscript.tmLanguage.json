@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.coolscript",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(let|in|do|if|else|elif|while|for|return)\\b"
 			}]
 		},
 		"strings": {
